@@ -1,0 +1,281 @@
+/*  
+Theme Name: SPB Portfolio
+Theme URI:
+Author: SB
+Author URI: spburden.me
+Description: Web Dev Portfolio Theme
+Version: 1.0
+
+*/
+
+nav li a {
+    color: white;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.pageThree .col-sm-4 {
+    margin-bottom: 15px;
+}
+
+strong h2 {
+    font-weight: bolder;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.page-scroll {
+    text-align: center;
+}
+
+.page-scroll a:hover {
+    color: #6F51AD;
+}
+
+.skills li {
+    margin: 5px;
+    padding: 5px;
+    background: white;
+    list-style-type: none;
+    font-size: 24px;
+    color: #71ACC0;
+    box-shadow: 2px 2px 2px black;
+}
+
+#skills {
+    color: white;
+}
+
+.mid-skills {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#home {
+    color: #FDD167;
+}
+
+#home:hover {
+    color: #FFEAB7;
+}
+
+.icon-bar {
+    background-color: #FDD167;
+}
+
+.row {
+    text-align: center;
+}
+
+.row .btn {
+    margin-top: -15px;
+    margin-bottom: 7px;
+}
+
+.nav-pills {
+    font-weight: 100 !important;
+    background-color: black;
+    opacity: 0.9;
+}
+
+nav,
+#home {
+    font-size: xx-large;
+}
+
+h3 {
+    text-shadow: 1px 1px 5px black;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+}
+
+#face {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.pageOne {
+    padding-top: 200px;
+    background: url("../images/epic2.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 775px; */
+    height: 100vh;
+    min-height: 56em;
+    font-family: 'Lobster';
+}
+
+.whatup {
+    padding-bottom: 36px;
+    padding-top: 18px;
+    background-color: #71ACC0;
+}
+
+.pageTwo {
+    background-color: #2B758E;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+    min-height: 100vh;
+}
+
+.pageThree {
+    padding: 50px 0px 50px 0px;
+}
+
+.pageFour {
+    background-color: #5363AD;
+    background-size: cover;
+    padding: 50px 0px 100px 0px;
+}
+
+.footer {
+    background-color: black;
+    background-size: cover;
+    padding: 15px 0px 15px 0px;
+}
+
+h3 {
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+p {
+    font-size: 24px;
+}
+
+.copyright {
+    color: #e6e6e6;
+}
+
+.row {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.caption-style {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.caption-style .project {
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.caption-style .project:hover .caption {
+    opacity: 1;
+}
+
+.caption-style img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4;
+}
+
+.caption-style .caption {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+
+.caption-style .blur {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+
+.caption-style .caption-text h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.project .caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 100px;
+}
+
+.screenshot {
+    width: 300px;
+    height: 200px;
+    z-index: 4;
+}
+
+.pageTwo,
+.pageThree,
+.pageFour,
+.footer {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav,
+#home {
+    letter-spacing: 1.5px;
+}
+
+select {
+    width: 25%;
+    text-align-last: center;
+    font-size: 16px;
+}
+
+.active {
+    color: #6F51AD;
+    background: #eee;
+}
+
+@media screen and (max-width: 767px) {
+    .screenshot {
+        width: 500px;
+        height: 333px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .screenshot {
+        width: 350px;
+        height: 233px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .screenshot {
+        width: 340px;
+        height: 227px;
+    }
+}
