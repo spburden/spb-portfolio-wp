@@ -1,6 +1,6 @@
 (function ($) {
 $(document).ready(function () {
-  $(".menu-item a").click(function () {
+  $("nav a").click(function () {
     var part = this.attributes['data-part'].value;
     console.log(part);
     $('html, body').animate({

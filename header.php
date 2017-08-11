@@ -21,7 +21,7 @@
         </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="page-scroll">
             <a data-part="pageTwo" href="#" id="about">About</a>
@@ -33,8 +33,8 @@
             <a data-part="pageFour" href="#" id="contact">Contact</a>
           </li>
         </ul>
-      </div> -->
-      <?php 
+      </div>
+      <!-- <?php 
           $args = array(
             'menu' => 'header-menu',
             'menu_class' => 'nav navbar-nav navbar-right',
@@ -42,7 +42,7 @@
             'container_id' => 'bs-example-navbar-collapse-1'
           );
           wp_nav_menu( $args );
-        ?>
+        ?> -->
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->

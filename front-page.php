@@ -19,9 +19,10 @@
     </div>
 </section> -->
 
-<?php get_template_part( 'content', 'sections' ); ?>
+<?php get_template_part( 'content', 'mainsection' ); ?>
 
 <?php get_template_part( 'content', 'spb_portfolio' ); ?>
 
+<?php get_template_part( 'content', 'contact' ); ?>
 
 <?php get_footer(); ?>

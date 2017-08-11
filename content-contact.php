@@ -1,6 +1,7 @@
 <?php
     $args = array(
-        'post_type' => 'section'
+        'post_type' => 'section',
+        'name' => 'contact'
     );
     // The Query
     $the_query = new WP_Query( $args );
