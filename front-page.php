@@ -5,7 +5,7 @@
 ?>
 <?php get_header(); ?>
 
-<section class="row">
+<!-- <section class="row">
     <div class="text-center">
         <div class="" style="margin: 100px;">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -17,7 +17,9 @@
 
         </div>
     </div>
-</section>
+</section> -->
+
+<?php get_template_part( 'content', 'sections' ); ?>
 
 <?php get_template_part( 'content', 'spb_portfolio' ); ?>
 

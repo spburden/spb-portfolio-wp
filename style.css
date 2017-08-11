@@ -1,4 +1,4 @@
-/*  
+/*
 Theme Name: SPB Portfolio
 Theme URI:
 Author: SB
@@ -115,7 +115,7 @@ body {
 
 .pageOne {
     padding-top: 200px;
-    background: url("../images/epic2.jpg");
+    background: url("/wp-content/uploads/2017/08/epic2.jpg");
     background-size: cover;
     background-position: center;
     /* height: 775px; */
