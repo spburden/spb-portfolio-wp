@@ -140,7 +140,7 @@
       <h2 class="white">Let's Connect!</h2>
       <h4 class="white">Contact me:</h4>
       <div class="btn-list">
-        <a class="btn btn-default" href="https://www.linkedin.com/in/stephenburden1" target="_blank"><i class="fa fa-linkedin fa=fw"></i> Linkedin</a> <a class="btn btn-default" href="https://www.github.com/spburden" target="_blank"><i class="fa fa-github"></i> Github</a> <a class="btn btn-default" href="mailto:spburden@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email</a> <a class="btn btn-default" href="https://drive.google.com/file/d/0B2BfFKonDn7CZHF1NlBfRlB4cHM/view?usp=sharing" target="_blank"><i class="fa fa-file-text-o"></i> Resume</a>
+        <a class="btn btn-default" href="https://www.linkedin.com/in/stephenburden1" target="_blank"><i class="fa fa-linkedin"></i> Linkedin</a> <a class="btn btn-default" href="https://www.github.com/spburden" target="_blank"><i class="fa fa-github"></i> Github</a> <a class="btn btn-default" href="mailto:spburden@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email</a> <a class="btn btn-default" href="https://drive.google.com/file/d/0B2BfFKonDn7CZHF1NlBfRlB4cHM/view?usp=sharing" target="_blank"><i class="fa fa-file-text-o"></i> Resume</a>
       </div>
     </div>
   </div>

@@ -7,7 +7,9 @@ Description: Web Dev Portfolio Theme
 Version: 1.0
 
 */
-
+.admin-bar nav {
+    margin-top: 32px;
+}
 nav li a {
     color: white;
 }

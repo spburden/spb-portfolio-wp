@@ -1,7 +1,8 @@
 (function ($) {
 $(document).ready(function () {
-  $("nav a").click(function () {
+  $(".menu-item a").click(function () {
     var part = this.attributes['data-part'].value;
+    console.log(part);
     $('html, body').animate({
       scrollTop: $("." + part).offset().top
     }, 1000);
